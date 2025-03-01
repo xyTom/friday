@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
+# Friday - Your Local AI Assistant App 🤖
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern AI assistant application built with [Expo](https://expo.dev), featuring local AI model execution. Created using [`create-expo-app`](https://www.npmjs.com/package/create-expo-app), this app demonstrates how to run powerful AI models directly on your device without relying on cloud services.
 
-## Get started
+Screenshots:
 
-1. Install dependencies
+![Screenshot](./screenshots/1.png)
 
+## ✨ Key Features
+
+- **Local AI Processing**: Run AI models directly on your device
+- **No Internet Required**: Chat with AI assistant offline
+- **Privacy First**: All data stays on your device
+
+
+## 🛠️ Prerequisites
+
+- Node.js (v18 or newer)
+- npm or yarn
+- iOS Simulator (for iOS development)
+- Android Studio & Android Emulator (for Android development)
+- [Expo CLI](https://docs.expo.dev/workflow/expo-cli/)
+- Sufficient device storage for AI model files
+
+## 🚀 Getting Started
+
+1. **Install Dependencies**
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
-
+2. **Start Development Server**
    ```bash
-    npx expo start
+   npm start
+   # or
+   yarn start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Running the App**
+   After starting the development server, you have several options to run the app:
+   - Press `i` to open in iOS simulator
+   - Press `a` to open in Android emulator
+   - Scan the QR code with [Expo Go](https://expo.dev/go) on your physical device
+   - Press `w` to open in web browser
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `app/` - Main application directory (uses file-based routing)
+- `assets/` - Static assets (images, fonts, etc.)
+- `components/` - Reusable React components
+- `constants/` - Application constants and configuration
+- `services/` - API services and business logic
+- `types/` - TypeScript type definitions
+- `hooks/` - Custom React Hooks
+- `scripts/` - Project utility scripts
 
-## Get a fresh project
+## 🌟 Key Features
 
-When you're ready, run:
+- AI Chat Assistant functionality
+- File-based routing system
+- Cross-platform compatibility (iOS, Android, Web)
+- Modern React Native development
+- TypeScript support
+- Gesture control support
+- Local data storage
+- WebView integration
+- Expo Blur effects
+- Haptics feedback
 
-```bash
-npm run reset-project
-```
+## 📱 Technology Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native 0.76.7
+- Expo SDK 52
+- Gifted Chat
+- AsyncStorage
+- Expo Router
+- TypeScript
+- LLAMA.cpp - Optimized for local model execution
+- LLAMA.rn - React Native bindings for LLAMA.cpp
 
-## Learn more
+## 🔧 Development Tools
 
-To learn more about developing your project with Expo, look at the following resources:
+- Jest testing framework
+- ESLint code linting
+- TypeScript type checking
+- Expo development tools
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📚 Learning Resources
 
-## Join the community
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
+- [React Navigation Documentation](https://reactnavigation.org/)
 
-Join our community of developers creating universal apps.
+## 🤝 Community & Support
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo GitHub](https://github.com/expo/expo)
+- [Expo Discord](https://chat.expo.dev)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/expo)
+
+## 📝 License
+
+This project is licensed under the MIT License.

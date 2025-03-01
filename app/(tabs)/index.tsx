@@ -4,7 +4,7 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { Chat } from '@/components/Chat';
+import { Chat } from '@/components/index';
 
 export default function HomeScreen() {
   return (
